@@ -1,0 +1,83 @@
+{
+  "name": "YUGE ARCHIVE.",
+  "owner": "张予歌",
+  "ownerEn": "Yuge Zhang",
+  "subtitle": "Personal Digital Museum",
+  "tagline": "Collecting knowledge, creating possibilities.",
+  "taglineZh": "收藏知识，记录探索，创造可能。",
+  "bio": [
+    "我目前在四川大学攻读图书情报硕士，本科毕业于南京农业大学信息管理与信息系统专业。",
+    "我关注信息、技术与人之间的关系，尝试通过研究、设计和技术理解复杂问题，并将想法转化为实际成果。",
+    "YUGE ARCHIVE是我的个人数字博物馆，用于收藏过去的作品、记录当下的探索，以及保存未来的可能性。"
+  ],
+  "contacts": {
+    "github": "",
+    "email": ""
+  },
+  "honors": [
+    {
+      "year": "2026",
+      "name": "优秀毕业生",
+      "organization": "南京农业大学",
+      "level": "校级"
+    },
+    {
+      "year": "2025",
+      "name": "优秀志愿者",
+      "organization": "南京农业大学",
+      "level": "校级"
+    },
+    {
+      "year": "2025",
+      "name": "三好学生二等奖学金",
+      "organization": "南京农业大学",
+      "level": "校级"
+    },
+    {
+      "year": "2025",
+      "name": "科技创新奖学金",
+      "organization": "南京农业大学",
+      "level": "校级"
+    },
+    {
+      "year": "2025",
+      "name": "社会实践奖学金",
+      "organization": "南京农业大学",
+      "level": "校级"
+    },
+    {
+      "year": "2025",
+      "name": "单科优秀奖学金",
+      "organization": "南京农业大学",
+      "level": "校级"
+    },
+    {
+      "year": "2025",
+      "name": "第十七届计算机设计大赛暨中国大学生计算机设计大赛校园选拔赛一等奖",
+      "organization": "南京农业大学",
+      "level": "校级选拔赛"
+    },
+    {
+      "year": "2024",
+      "name": "“三下乡”社会实践先进个人",
+      "organization": "南京农业大学",
+      "level": "校级"
+    },
+    {
+      "year": "2024",
+      "name": "三好学生二等奖学金",
+      "organization": "南京农业大学",
+      "level": "校级"
+    }
+  ],
+  "libraryPractice": [
+    {
+      "period": "2024.01.08—2024.02.02",
+      "description": "玉溪市图书馆采编部 · 志愿服务"
+    },
+    {
+      "period": "2024.05.01—2024.09.30",
+      "description": "南京农业大学图书馆资源建设部（浦口分馆） · 学生馆员"
+    }
+  ]
+}
