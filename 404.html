@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="此页面可能已移动。">
+  <meta name="description" content="页面可能已移动。你可以返回首页，或通过作品索引查找。">
   <meta name="theme-color" content="#F5F2EA">
-  <title>找不到页面 · YUGE ARCHIVE.</title>
+  <title>找不到页面 · Yuge Zhang</title>
   <link rel="icon" data-href="assets/icons/mark.svg" type="image/svg+xml">
   <link rel="stylesheet" data-href="css/tokens.css">
   <link rel="stylesheet" data-href="css/base.css">
@@ -18,7 +18,7 @@
     while (true) {
       try {
         const response = await fetch(new URL('data/site.json', directory));
-        if (response.ok && (await response.json()).name === 'YUGE ARCHIVE.') break;
+        if (response.ok && (await response.json()).ownerEn === 'Yuge Zhang') break;
       } catch {
         // Continue at the next parent directory.
       }
@@ -38,18 +38,18 @@
   <a class="skip" href="#main">跳至正文</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="brand" href="index.html" aria-label="YUGE ARCHIVE. 予歌档案馆序厅"><img data-src="assets/icons/mark.svg" width="34" height="34" alt=""><span>YUGE ARCHIVE<span class="accent">.</span><small>予歌档案馆</small></span></a>
+      <a class="brand" href="index.html" aria-label="张予歌的个人主页 - 首页"><img data-src="assets/icons/mark.svg" width="34" height="34" alt=""><span><span lang="en">Yuge Zhang</span><small>张予歌的个人主页</small></span></a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" hidden>菜单</button>
-      <nav id="site-nav" aria-label="主导航"><a href="index.html">序厅</a><a href="galleries.html">展厅</a><a href="archive.html">档案</a><a href="timeline.html">时间轴</a><a href="about.html">关于</a><a href="notes.html">手记</a></nav>
+      <nav id="site-nav" aria-label="主导航"><a href="index.html">首页</a><a href="galleries.html">项目与作品</a><a href="archive.html">作品索引</a><a href="timeline.html">成长记录</a><a href="about.html">关于我</a><a href="notes.html">随笔</a></nav>
     </div>
   </header>
   <main id="main" class="wrap" tabindex="-1">
-    <section class="page-head error-page"><p class="eyebrow">404 / PAGE NOT FOUND</p><h1>找不到这个页面</h1><p>页面可能已移动。你可以从序厅重新开始，或按编号和关键词找回展品。</p><div class="actions"><a class="button primary" href="index.html">返回序厅</a><a class="button" href="archive.html">搜索数字档案</a></div></section>
+    <section class="page-head error-page"><p class="eyebrow">404 / PAGE NOT FOUND</p><h1>找不到这个页面</h1><p>页面可能已移动。你可以返回首页，或通过作品索引查找。</p><div class="actions"><a class="button primary" href="index.html">返回首页</a><a class="button" href="archive.html">搜索作品</a></div></section>
     
   </main>
   <footer class="site-footer"><div class="wrap footer-inner">
-    <div><a class="footer-brand" href="index.html">YUGE ARCHIVE<span class="accent">.</span></a><p>收藏知识，记录探索，创造可能。</p><p lang="en">Collecting knowledge, creating possibilities.</p></div>
-    <nav aria-label="页脚导航"><a href="galleries.html">常设展厅</a><a href="archive.html">数字档案库</a><a href="about.html">关于策展人</a></nav>
+    <div><a class="footer-brand" href="index.html">张予歌的个人主页</a><p lang="en">Yuge Zhang</p></div>
+    <nav aria-label="页脚导航"><a href="galleries.html">项目与作品</a><a href="archive.html">作品索引</a><a href="about.html">关于我</a></nav>
   </div></footer>
 </body>
 </html>
