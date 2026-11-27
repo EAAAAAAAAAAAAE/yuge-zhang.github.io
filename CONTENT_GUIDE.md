@@ -19,6 +19,7 @@
 | `featured` | 设为 `true` 即显示在首页策展人推荐，顺序沿用数据文件 |
 | `visibility` | `public` 即可通过网站公开浏览 |
 | `relatedExhibits` | 填写相关展品编号数组，例如 `["EX.001","EX.007"]` |
+| `demo` | 可选的展品页演示入口，包含 `title` 与 `url`。本地演示路径形如 `projects/news-search/index.html`。 |
 
 团队项目的 `contribution` 填写个人负责的工作，`outcomes` 填写整个团队的成果。可选字段留空时，详情模板会跳过相应内容。
 
@@ -44,12 +45,15 @@
 
 有真实 GitHub 仓库或其他公开链接时，在 `links` 数组添加包含 `title` 和 `url` 的对象，使用完整 HTTPS 地址。添加资料前核对文件名大小写、实际路径和访问权限。无字幕的录屏可以省略 `captions`，并为有语音的内容提供文字稿。
 
+`images` 中的图片可在展品页点击打开原图。课程项目演示页使用静态相对路径。新闻检索演示的数据为虚构样例，课程项目的原始新闻语料应留在站点目录之外。
+
 ## 展厅、年表、手记与联系方式
 
 - 在 `data/galleries.json` 编辑展厅的标题、介绍、编号和封面。通过展品的 `galleries` 数组调整分类，同一展品的编号和详情地址可保持不变。更改展厅 ID 时同步改动引用它的展品及已发布的入口。
 - 在 `data/timeline.json` 加入形如 `{"year":2027,"events":["经历内容"]}` 的记录，或在已有年份的 `events` 中添加一条。页面从近到远展示。
 - 在 `data/notes.json` 的 `entries` 数组中添加对象，填写 `title`、`category`、`date`、`paragraphs` 和 `visibility`。日期用 `YYYY-MM-DD`，正文用字符串数组，栏目从 `categories` 选择。
 - 在 `data/site.json` 的 `contacts.github` 与 `contacts.email` 填写愿意公开的 GitHub HTTPS 地址与邮箱。空值会隐藏对应链接。
+- 在 `data/site.json` 的 `honors` 中维护代表性荣誉，每条填写 `year`、`name`、`organization` 和 `level`。在 `libraryPractice` 中维护图书馆实践，每条填写 `period` 和 `description`。如需同时显示在成长年表，将同一经历加入 `data/timeline.json` 的对应年份。
 
 ## 下架与隐私
 
