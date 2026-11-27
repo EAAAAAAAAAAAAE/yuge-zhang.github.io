@@ -1,6 +1,6 @@
-# YUGE ARCHIVE. 予歌档案馆
+# YUGE ARCHIVE. 
 
-张予歌的个人数字博物馆。站点使用原生 HTML、CSS、JavaScript、JSON 和 SVG，可直接由静态服务器提供，无需安装前端依赖。
+张予歌的个人页面。站点使用原生 HTML、CSS、JavaScript、JSON 和 SVG，可直接由静态服务器提供，无需安装前端依赖。
 
 ## 本地预览
 
